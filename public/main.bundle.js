@@ -206,7 +206,7 @@ var TodoListComponent = (function () {
         this.dataService = dataService;
         this.getTodos = function () {
             _this.dataService.getTodos().subscribe(function (todo) {
-                console.log(todo);
+                console.log('MY TODO LIST: ', todo);
             });
         };
     }
